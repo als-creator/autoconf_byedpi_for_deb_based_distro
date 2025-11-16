@@ -9,7 +9,7 @@
 - Запрет прямого запуска от root: рекомендуется запускать скрипт через `su -c`.
 - Проверка наличия команды `su`.
 - Автоматический поиск конфигурационного файла `byedpi.conf` в `/etc/` или `/usr/local/etc/`.
-- Установка пакета `byedpi-bin` из репозитория с помощью пакетного менеджера (`apt-get` или `rpm`) через `su`.
+- Установка пакета `byedpi` из репозитория с помощью пакетного менеджера (`apt-get` или `rpm`) через `su`.
 - Настройка параметров ByeDPI в конфигурационном файле.
 - Автоматическое включение и запуск сервиса через `systemctl` с использованием `su`.
 
@@ -17,16 +17,16 @@
 
 ## Быстрый старт
 
-1. Сохраните скрипт в файл, например `install_byedpi_altlinux.sh`.
+1. Сохраните скрипт в файл, например `autoconf_byedpi_for_deb_based_distro.sh`.
 2. Сделайте скрипт исполняемым:
 
-chmod +x install_byedpi_altlinux.sh
+chmod +x autoconf_byedpi_for_deb_based_distro.sh
 
 text
 
 3. Запустите скрипт с помощью `su`:
 
-su -c ./install_byedpi_altlinux.sh
+su -c ./autoconf_byedpi_for_deb_based_distro.sh
 
 text
 
