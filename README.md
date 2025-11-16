@@ -22,13 +22,9 @@
 
 chmod +x autoconf_byedpi_for_deb_based_distro.sh
 
-text
-
 3. Запустите скрипт с помощью `su`:
 
 su -c ./autoconf_byedpi_for_deb_based_distro.sh
-
-text
 
 ---
 
@@ -38,19 +34,13 @@ text
 
 su -c 'systemctl restart byedpi'
 
-text
-
 - Запуск:
 
 su -c 'systemctl start byedpi'
 
-text
-
 - Проверка статуса:
 
 su -c 'systemctl status byedpi'
-
-text
 
 ---
 
@@ -59,8 +49,6 @@ text
 По умолчанию конфигурационный файл размещается по пути:
 
 /etc/byedpi.conf
-
-text
 
 Если файла нет, скрипт ищет конфигурацию в `/usr/local/etc/byedpi.conf`. В файле можно изменить правила фильтрации, порт и другие параметры.
 
