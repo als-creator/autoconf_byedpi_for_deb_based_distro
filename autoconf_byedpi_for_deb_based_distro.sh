@@ -1,6 +1,5 @@
 #!/bin/bash
-set -euo pipefail
-
+set -x
 # Запуск от root напрямую запрещён, используйте su -c
 if [ "$EUID" -eq 0 ]; then
   echo "Не запускайте скрипт от root напрямую, используйте su -c" >&2
